@@ -34,7 +34,7 @@ public class RotateArrayTest {
 
 
     @Test
-    public void congregratedTests() {
+    public void congregatedTests() {
         RotateArray rotateArray = new RotateArray();
         assertArrayEquals(expectedResult, rotateArray.rotateArray(inputArray, numberOfRotations));
     }
